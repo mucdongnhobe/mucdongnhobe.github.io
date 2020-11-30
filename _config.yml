@@ -23,9 +23,11 @@ description: "A personal blog about everything."
 
 # List of links in the navigation bar
 navbar-links:
-  Blog:
-    - Posts: "blog"
-    - Tags: "tags"
+  # Blog:
+  #   - Posts: "blog"
+  #   - Tags: "tags"
+  Posts: "blog"
+  Tags: "tags"
   # Resources:
   #   - Powershell: "powershell-resources"
   About:
@@ -81,13 +83,13 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
+  facebook: mucdongnhobe
+  email: "mucdongnhobe@gmail.com"
   github: mucdongnhobe
   # stackoverflow: "5222635/ocram85"
   # twitter: tar_honar
-  email: "mucdongnhobe@gmail.com"
   # linkedin: marco-blessing-884642109
   # rss: false
-  facebook: mucdongnhobe
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  xing: yourname
