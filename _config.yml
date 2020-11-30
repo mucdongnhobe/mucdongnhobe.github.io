@@ -26,8 +26,8 @@ navbar-links:
   Blog:
     - Posts: "blog"
     - Tags: "tags"
-  Resources:
-    - Powershell: "powershell-resources"
+  # Resources:
+  #   - Powershell: "powershell-resources"
   About:
     - Me: "aboutme"
     - This Blog: "aboutthisblog"
