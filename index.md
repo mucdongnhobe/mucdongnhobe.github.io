@@ -2,7 +2,7 @@
 layout: page
 title: Welcome
 show-avatar: true
-subtitle: ...to my personal blog about PowerShell, Automation and more.
+subtitle: ...to my personal blog about everything.
 bigimg:
   - 'img/bigimg/bg-home.jpg': "Photo by Dariusz Sankowski on Unsplash"
 use-site-title: true
