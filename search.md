@@ -10,7 +10,9 @@ css: "/css/search.css"
 ### Using the amazing Google
 
 <div id="google-custom-search">
-<script>
+<script async src="https://cse.google.com/cse.js?cx=0d0ee8802e3d91a89"></script>
+<div class="gcse-search"></div>
+<!-- <script>
   (function() {
     var cx = '0d0ee8802e3d91a89';
     var gcse = document.createElement('script');
@@ -23,7 +25,7 @@ css: "/css/search.css"
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
-</script>
+</script> -->
 <gcse:searchbox></gcse:searchbox>
 <gcse:searchresults></gcse:searchresults>
 </div>
