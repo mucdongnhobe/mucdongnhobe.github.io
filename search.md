@@ -6,15 +6,5 @@ subtitle: Feeling lost? Look for things in my blog.
 
 This blog uses [google search](http://google.com/cse).
 
-<script>
-  (function() {
-    var cx = '005036231896853323962:4xmqe7fiq7q';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
+<script async src="https://cse.google.com/cse.js?cx=c5b57d3b0c477b821"></script>
+<div class="gcse-search"></div>
