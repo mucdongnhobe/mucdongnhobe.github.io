@@ -74,16 +74,16 @@ css: '/css/extend-home.css'
 <div class="spacer"></div>
 
 <div class="posts-list">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-      <h2 class="post-title">{{ post.title }}</h2>
+	  <h2 class="post-title">{{ post.title }}</h2>
 
-      {% if post.subtitle %}
-      <h3 class="post-subtitle">
-        {{ post.subtitle }}
-      </h3>
-      {% endif %}
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
     </a>
 
     <p class="post-meta">
@@ -99,9 +99,11 @@ css: '/css/extend-home.css'
       </div>
       {% endif %}
       <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} {% assign excerpt_word_count = post.excerpt
-        | number_of_words %} {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a> {% endif %}
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        {% endif %}
       </div>
     </div>
 
@@ -118,19 +120,20 @@ css: '/css/extend-home.css'
     </div>
     {% endif %}
 
-  </article>
+   </article>
   {% endfor %}
 </div>
 
-{% if site.total_pages > 1 %}
+{% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
-  {% if site.previous_page %}
+  {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ site.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
   </li>
-  {% endif %} {% if site.next_page %}
+  {% endif %}
+  {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ site.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
   </li>
   {% endif %}
 </ul>
