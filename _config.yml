@@ -86,7 +86,7 @@ social-network-links:
   # twitter: tar_honar
   email: "mucdongnhobe@gmail.com"
   # linkedin: marco-blessing-884642109
-  rss: false
+  # rss: false
   facebook: mucdongnhobe
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -162,7 +162,7 @@ excerpt_length: 50
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
-title-separator: "-"
+# title-separator: "-"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
