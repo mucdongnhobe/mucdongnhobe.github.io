@@ -28,7 +28,7 @@ Marco Blessing
 Kapellenstraße 12
 77815 Bühl
 E-Mailadresse: marco.blessing@googlemail.com
-Link zum Impressum: https://OCram85.com/impressum
+Link zum Impressum: https://mucdongnhobe.github.io/impressum
 ```
 
 ## Arten der verarbeiteten Daten:

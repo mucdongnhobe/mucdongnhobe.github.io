@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://ocram85.com/sitemap.xml
+Sitemap: https://mucdongnhobe.github.io/sitemap.xml

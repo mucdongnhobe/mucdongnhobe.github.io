@@ -8,14 +8,6 @@ The theme is based on [beautiful-jekyll](https://github.com/daattali/beautiful-j
 I contribute to his repository and try to create PRs for all the changes I did. Chances are good that these PRs are already merged...
 
 
-## ⚠️ Note: github-pages compatibility ⚠️
-
-I recently had moved away from github-pages for hosting my blog. To fulfill [GDPR](https://eugdpr.org/) I'm now
-hosting the blog on my on. Additionally I removed al external resources and integrated them. I you need more details
-about the changes see [Page And Privacy Updates](https://ocram85.com/2018-10-29-PrivacyUpdate/).
-
-This site is still github-pages compatible!
-
 ## :wrench: Custom Build Process :wrench:
 
 If you are interested about my custom build process you can take a look at the [autobuild.sh](./tools/autobuild.sh) script.

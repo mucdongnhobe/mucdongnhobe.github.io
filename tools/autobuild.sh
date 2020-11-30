@@ -9,8 +9,8 @@ set -e
 echo "$(date) | ====== Starting jekyll autobuild ======"
 
 # Global Paths
-REPOPATH="/opt/repos/OCram85.com"
-JEKYLLDEST="/opt/www/OCram85.com"
+REPOPATH="/opt/repos/mucdongnhobe.github.io"
+JEKYLLDEST="/opt/www/mucdongnhobe.github.io"
 
 # switch to specific working dir
 cd $REPOPATH
