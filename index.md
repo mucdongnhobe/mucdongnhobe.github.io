@@ -68,20 +68,22 @@ css: '/css/extend-home.css'
   </div>
 </div> -->
 
+----
+
 <h1 class="text-center">Recent Posts</h1>
 <div class="spacer"></div>
 
 <div class="posts-list">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+      <h2 class="post-title">{{ post.title }}</h2>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">
+        {{ post.subtitle }}
+      </h3>
+      {% endif %}
     </a>
 
     <p class="post-meta">
@@ -110,7 +112,7 @@ css: '/css/extend-home.css'
       Tags:
       {% if site.link-tags %}
       {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+      <a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a>
       {% endfor %}
       {% else %}
         {{ post.tags | join: ", " }}
@@ -121,23 +123,6 @@ css: '/css/extend-home.css'
    </article>
   {% endfor %}
 </div>
-
-{% if site.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if site.previous_page %}
-  <li class="previous">
-    <a href="{{ site.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if site.next_page %}
-  <li class="next">
-    <a href="{{ site.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
-
-
 
 <!-- <ul class="pager main-pager">
   <li>

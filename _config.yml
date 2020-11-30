@@ -26,8 +26,7 @@ navbar-links:
   # Blog:
   #   - Posts: "blog"
   #   - Tags: "tags"
-  # Posts: "blog"
-  Home: "."
+  Posts: "blog"
   Tags: "tags"
   # Resources:
   #   - Powershell: "powershell-resources"
