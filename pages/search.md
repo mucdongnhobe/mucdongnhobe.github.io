@@ -13,7 +13,18 @@ css: "/css/search.css"
   <input type="submit" value="search">
 </form>
 
-<ul id="search-results"></ul>
+<!-- <ul id="search-results"></ul> -->
+
+<div class="post-list" id="search-results">
+        <!-- {%- for post in site.tags[tag] -%}
+            <div class="tag-entry">
+                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+                <div class="entry-date">
+                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: "%B %d, %Y" -}}</time>
+                </div>
+            </div>
+        {%- endfor -%} -->
+    </div>
 
 <script>
   window.store = {

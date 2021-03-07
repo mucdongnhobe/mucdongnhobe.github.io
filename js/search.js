@@ -7,9 +7,15 @@
 
             for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
-                appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+                // appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
                 // appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
-                appendString += '<p>' + item.excerpt + '...</p></li>';
+
+                appendString += '<div class="tag-entry">';
+                appendString += '<a href="'+item.url+'">'+item.title+'</a>';
+                appendString += '<div class="entry-date">';
+                appendString += '<time datetime="'+post.date+' | date_to_xmlschema">'+post.date+' | date: "%B %d, %Y"</time>';
+                appendString += '</div>';
+                appendString += '</div>';
             }
 
             searchResults.innerHTML = appendString;
