@@ -7,7 +7,7 @@ css: "/css/search.css"
 
 # Search mucdongnhobe.github.io
 
-### Using the amazing Google
+<!-- ### Using the amazing Google -->
 
 <div id="google-custom-search">
 <script>
