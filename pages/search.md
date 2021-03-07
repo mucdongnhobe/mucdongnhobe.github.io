@@ -20,7 +20,6 @@ css: "/css/search.css"
     {% for post in site.posts %}
       "{{ post.url | slugify }}": {
         "title": "{{ post.title | xml_escape }}",
-        "subtitle": "{{ post.subtitle | xml_escape }}",
         "author": "{{ post.author | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
