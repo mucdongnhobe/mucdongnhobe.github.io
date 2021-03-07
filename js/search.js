@@ -12,9 +12,9 @@
 
                 appendString += '<div class="tag-entry">';
                 appendString += '<a href="'+item.url+'">'+item.title+'</a>';
-                appendString += '<div class="entry-date">';
-                appendString += '<time datetime="'+post.date+' | date_to_xmlschema">'+post.date+' | date: "%B %d, %Y"</time>';
-                appendString += '</div>';
+                // appendString += '<div class="entry-date">';
+                // appendString += '<time datetime="'+post.date+' | date_to_xmlschema">'+post.date+' | date: "%B %d, %Y"</time>';
+                // appendString += '</div>';
                 appendString += '</div>';
             }
 

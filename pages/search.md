@@ -24,7 +24,7 @@ css: "/css/search.css"
                 </div>
             </div>
         {%- endfor -%} -->
-    </div>
+</div>
 
 <script>
   window.store = {
