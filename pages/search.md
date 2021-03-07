@@ -5,8 +5,6 @@ title: null
 css: "/css/search.css"
 ---
 
-# Search mucdongnhobe.github.io
-
 <form action="/search.html" method="get">
   <label for="search-box">Search</label>
   <input type="text" id="search-box" name="query">
