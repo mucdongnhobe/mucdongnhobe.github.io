@@ -5,10 +5,11 @@
         if (results.length) { // Are there any results?
             var appendString = '';
 
-            for (var i = 0; i < results.length; i++) {  // Iterate over the results
+            for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
                 appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-                appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+                // appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+                appendString += '<p>' + item.subtitle + '...</p></li>';
             }
 
             searchResults.innerHTML = appendString;
@@ -40,6 +41,7 @@
         var idx = lunr(function () {
             this.field('id');
             this.field('title', { boost: 10 });
+            this.field('subtitle');
             this.field('author');
             this.field('category');
             this.field('content');
@@ -48,6 +50,7 @@
                 this.add({
                     'id': key,
                     'title': window.store[key].title,
+                    'subtitle': window.store[key].subtitle,
                     'author': window.store[key].author,
                     'category': window.store[key].category,
                     'content': window.store[key].content
