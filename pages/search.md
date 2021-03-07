@@ -10,13 +10,13 @@ css: "/css/search.css"
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search"> -->
   <div class="input-group">
-  <div class="form-outline">
-    <input type="search" id="search-box" class="form-control" name="query" />
-    <label class="form-label" for="form1">Search</label>
-  </div>
-  <button type="submit" class="btn btn-primary">
-    <i class="fas fa-search"></i>
-  </button>
+    <div class="form-outline">
+      <input type="text" id="search-box" class="form-control" name="query" />
+      <label class="form-label" for="form1">Search</label>
+    </div>
+    <button type="submit" class="btn btn-primary">
+      <i class="fas fa-search"></i>
+    </button>
   </div>
 </form>
 
