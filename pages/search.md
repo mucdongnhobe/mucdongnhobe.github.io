@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: "search"
-title: "Search"
+title: null
 css: "/css/search.css"
 ---
 
