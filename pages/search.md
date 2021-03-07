@@ -20,8 +20,8 @@ css: "/css/search.css"
   </div>
 </form> -->
 
-<form class="navbar-form" role="search" action="/search.html" method="get">
-  <div class="input-group add-on">
+<form class="navbar-form" role="search" action="/search.html" method="get" style="margin-bottom: 30px;">
+  <div class="input-group add-on" style="width: 100%;">
     <input class="form-control" placeholder="Search" name="query" id="search-box" type="text">
     <div class="input-group-btn">
       <button class="btn btn-default" type="submit"><i class="fa fa-search nav-search-icon"></i></button>

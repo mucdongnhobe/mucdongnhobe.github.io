@@ -10,7 +10,7 @@
                 // appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
                 // appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
 
-                appendString += '<div class="tag-entry">';
+                appendString += '<div class="tag-entry" style="margin-left: 15px;">';
                 appendString += '<a href="'+item.url+'">'+item.title+'</a>';
                 appendString += '<div class="entry-date">';
                 const d = new Date(item.date);
