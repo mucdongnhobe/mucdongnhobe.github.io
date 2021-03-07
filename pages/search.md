@@ -27,7 +27,7 @@ css: "/css/search.css"
     {% endfor %}
   };
 </script>
-<script src="/js/lunr.min.js"></script>
+<script src="/js/lunr.js"></script>
 <script src="/js/search.js"></script>
 
 <!-- # Search mucdongnhobe.github.io
