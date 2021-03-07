@@ -7,7 +7,7 @@ css: "/css/search.css"
 
 # Search mucdongnhobe.github.io
 
-<div id="google-custom-search">
+<!-- <div id="google-custom-search"> -->
 <script>
   (function() {
     var cx = '5ae6417b7673fc1a7';
@@ -21,6 +21,7 @@ css: "/css/search.css"
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:searchbox></gcse:searchbox>
-<gcse:searchresults></gcse:searchresults>
+<div class="gcse-search"></div>
+<!-- <gcse:searchbox></gcse:searchbox>
+<gcse:searchresults></gcse:searchresults> -->
 </div>
