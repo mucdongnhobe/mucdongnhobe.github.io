@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 permalink: "search"
 title: "Search"
 css: "/css/search.css"
@@ -15,7 +15,13 @@ css: "/css/search.css"
 
 <!-- <ul id="search-results"></ul> -->
 
-<div class="post-list" id="search-results">
+<div id="full-tags-list">
+<!-- {%- for tag in tags_list -%}
+    <h2 id="{{- tag -}}" class="linked-section">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+    </h2> -->
+    <div id="search-results" class="post-list">
         <!-- {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
                 <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
@@ -24,6 +30,8 @@ css: "/css/search.css"
                 </div>
             </div>
         {%- endfor -%} -->
+    </div>
+<!-- {%- endfor -%} -->
 </div>
 
 <script>
