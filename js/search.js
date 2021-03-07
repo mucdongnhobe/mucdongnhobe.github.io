@@ -13,7 +13,10 @@
                 appendString += '<div class="tag-entry">';
                 appendString += '<a href="'+item.url+'">'+item.title+'</a>';
                 appendString += '<div class="entry-date">';
-                appendString += '<time>'+item.date+'</time>';
+                const ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(item.date);
+                const mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(item.date);
+                const da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(item.date);
+                appendString += '<time>'+mo+' '+da+', '+ye+'</time>';
                 appendString += '</div>';
                 appendString += '</div>';
             }
