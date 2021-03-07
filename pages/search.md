@@ -25,6 +25,7 @@ css: "/css/search.css"
         "title": "{{ post.title | xml_escape }}",
         "author": "{{ post.author | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
+        "date": {{ post.date | jsonify }},
         "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ post.url | xml_escape }}"
       }

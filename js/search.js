@@ -13,7 +13,7 @@
                 appendString += '<div class="tag-entry">';
                 appendString += '<a href="'+item.url+'">'+item.title+'</a>';
                 appendString += '<div class="entry-date">';
-                appendString += '<time datetime="'+item.date+' | date_to_xmlschema">'+item.date+' | date: "%B %d, %Y"</time>';
+                appendString += '<time datetime="'+item.date | date_to_xmlschema+'">'+item.date+'</time>';
                 appendString += '</div>';
                 appendString += '</div>';
             }
