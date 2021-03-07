@@ -24,12 +24,12 @@ css: "/css/search.css"
   <div class="input-group add-on">
     <input class="form-control" placeholder="Search" name="query" id="search-box" type="text">
     <div class="input-group-btn">
-      <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+      <button class="btn btn-default" type="submit"><i class="fa fa-search nav-search-icon"></i></button>
     </div>
   </div>
 </form>
 
-<div class="input-group">
+<!-- <div class="input-group">
   <div class="form-outline">
     <input type="search" id="form1" class="form-control" />
     <label class="form-label" for="form1">Search</label>
@@ -37,7 +37,7 @@ css: "/css/search.css"
   <button type="button" class="btn btn-primary">
     <i class="fas fa-search"></i>
   </button>
-</div>
+</div> -->
 
 <!-- <ul id="search-results"></ul> -->
 
