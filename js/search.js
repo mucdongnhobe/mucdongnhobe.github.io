@@ -13,7 +13,7 @@
                 appendString += '<div class="tag-entry">';
                 appendString += '<a href="'+item.url+'">'+item.title+'</a>';
                 appendString += '<div class="entry-date">';
-                const d = new Date(item.Date);
+                const d = new Date(item.date);
                 const ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(d);
                 const mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(d);
                 const da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(d);
