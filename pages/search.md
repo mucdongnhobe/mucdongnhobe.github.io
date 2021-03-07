@@ -5,18 +5,27 @@ title: null
 css: "/css/search.css"
 ---
 
-<form action="/search.html" method="get">
-  <!-- <label for="search-box">Search</label>
+<!-- <form action="/search.html" method="get">
+  <label for="search-box">Search</label>
   <input type="text" id="search-box" name="query">
-  <input type="submit" value="search"> -->
+  <input type="submit" value="search">
   <div class="input-group">
     <div class="form-outline">
       <input type="text" id="search-box" class="form-control" name="query" />
       <label class="form-label" for="form1">Search</label>
     </div>
     <button type="submit" class="btn btn-primary">
-      <i class="fas fa-search"></i>
+      <i class="fa fa-search nav-search-icon"></i>
     </button>
+  </div>
+</form> -->
+
+<form class="navbar-form" role="search" action="/search.html" method="get">
+  <div class="input-group add-on">
+    <input class="form-control" placeholder="Search" name="query" id="search-box" type="text">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+    </div>
   </div>
 </form>
 
