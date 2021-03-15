@@ -1,21 +1,14 @@
 ---
 layout: post
-title: "This is my first blog"
+title: "Ngày mới"
 subtitle:
-excerpt: "Hello World."
+excerpt: "Bình an"
 image: "/img/bigimg/bookshelf.jpg"
 show-avatar: true
 category: Jekyll
-tags: ["JustForFun", "NewPost"]
+tags: ["Chào"]
 comments: true
 googlefonts: ["Share+Tech+Mono"]
 ---
+Chúng ta cùng đi trong ngày mới thật bình an.
 
-{% include about.html footer=true readingtime=true %}
-
-## Heading 1
-
-This section will introduce about my blog.
-
-## Heading 2
-This is section 2.
