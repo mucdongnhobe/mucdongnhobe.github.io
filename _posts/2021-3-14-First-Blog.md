@@ -1,7 +1,7 @@
 ---
 layout: post
-title: This is my first blog
-# subtitle:
+title: "This is my first blog"
+subtitle:
 excerpt: "Hello World."
 image: "/img/bigimg/bookshelf.jpg"
 show-avatar: true
