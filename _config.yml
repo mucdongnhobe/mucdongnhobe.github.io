@@ -29,11 +29,18 @@ navbar-links:
   # Posts: "blog"
   Home: "."
   Tags: "tags"
+    - Lối mòn
+    - Lời cầu nguyện đêm khuya
+    - Lá thư cuối ngày của kẻ nhàn rỗi
+    - Tản mạn một thoáng nhìn
+    - Thơ
+    - Truyện 
+    - Truyện sưu tầm giúp giảng thuyết
   # Resources:
   #   - Powershell: "powershell-resources"
-  About:
-    - Me: "aboutme"
-    - This Blog: "aboutthisblog"
+ # About:
+  #  - Me: "aboutme"
+  #  - This Blog: "aboutthisblog"
 
 
 # --- Google custom search config --- #
