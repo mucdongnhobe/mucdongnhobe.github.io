@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "CÁNH CỬA KHÔNG BAO GIỜ MỞ"
-subtitle:
-excerpt: "Câu chuyện về một chàng trai không dám đi tìm hạnh phúc"
+subtitle: Câu chuyện về một chàng trai không dám đi tìm hạnh phúc
+excerpt: ""
 image: "/img/Hoàng hôn 2.jpeg"
 show-avatar: true
 category: Tản mạn

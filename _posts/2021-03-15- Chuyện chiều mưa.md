@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "CHUYỆN CHIỀU MƯA"
-subtitle:
-excerpt: "Câu chuyện học trò và tâm sự của một cô gái trẻ"
+subtitle:Câu chuyện học trò và tâm sự của một cô gái trẻ
+excerpt: ""
 image: "/img/IMG_0078.JPG"
 show-avatar: true
 category: Tản mạn

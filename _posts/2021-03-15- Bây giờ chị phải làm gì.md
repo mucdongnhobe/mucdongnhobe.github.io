@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "BÂY GIỜ CHỊ PHẢI LÀM GÌ"
-subtitle:
-excerpt: "Câu chuyện thời sinh viên rất bình dị tại Việt Nam. Một thoáng nhìn trong tâm tư con người muốn được tỏ lộ cùng ai."
+subtitle: Câu chuyện thời sinh viên rất bình dị tại Việt Nam. Một thoáng nhìn trong tâm tư con người muốn được tỏ lộ cùng ai.
+excerpt: ""
 image: "/img/Bàn tay che trời.jpeg"
 show-avatar: true
 category: Tản mạn
