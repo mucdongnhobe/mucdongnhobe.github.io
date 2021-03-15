@@ -85,8 +85,9 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   facebook: mucdongnhobe
+  youtube: channel/UCsSMwcCfal1iCYpbsjRAflw
   email: "mucdongnhobe@gmail.com"
-  github: mucdongnhobe
+  #github: mucdongnhobe
   # stackoverflow: "5222635/ocram85"
   # twitter: tar_honar
   # linkedin: marco-blessing-884642109
@@ -96,7 +97,7 @@ social-network-links:
 #  xing: yourname
 #  snapchat: deanat78
 #  instagram: deanat78
-  youtube: channel/UCsSMwcCfal1iCYpbsjRAflw
+ 
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
